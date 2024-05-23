@@ -3,10 +3,10 @@ package main.java.list.OperacoesBasicas;
 public class Item {
     //atributo
     private String nome;
-    private Double preco;
+    private double preco;
     private int quantidade;
     
-    public Item(String nome, Double preco, int quantidade) {
+    public Item(String nome, double preco, int quantidade) {
         this.nome = nome;
         this.preco = preco;
         this.quantidade = quantidade;
@@ -16,7 +16,7 @@ public class Item {
         return nome;
     }
 
-    public Double getPreco() {
+    public double getPreco() {
         return preco;
     }
 
