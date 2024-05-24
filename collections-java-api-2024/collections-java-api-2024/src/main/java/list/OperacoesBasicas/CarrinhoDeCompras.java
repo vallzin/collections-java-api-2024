@@ -40,7 +40,7 @@ public class CarrinhoDeCompras {
             return valorTotal;
             }
             else{
-                throw new RuntimeException("A lista está vaziz");
+                throw new RuntimeException("A lista está vazia");
             }
         }
 
@@ -48,7 +48,7 @@ public class CarrinhoDeCompras {
             if(!carrinhoList.isEmpty()){
                 System.out.println(this.carrinhoList);
             }else{
-                System.out.println("A lista está vaziz");
+                System.out.println("A lista está vazia");
             }
         }
 
