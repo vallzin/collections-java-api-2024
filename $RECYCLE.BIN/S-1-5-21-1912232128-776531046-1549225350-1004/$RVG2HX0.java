@@ -1,10 +1,10 @@
 package main.java.list.OperacoesBasicas;
 
-public class Numeros {
+public class AAAANumeros {
     //atributos
     private int numeros;
 
-    public Numeros(int numeros) {
+    public AAAANumeros(int numeros) {
         this.numeros = numeros;
     }
 
