@@ -54,8 +54,10 @@ public class AgendaContatos {
         agendaContatos.adicionarContato("Valmilson DevJava", 123656);
 
         agendaContatos.exibirContatos();
+        System.out.println();
 
-        System.out.println(agendaContatos.pesquisarPorNome("Valmilson"));
+        System.out.println(agendaContatos.pesquisarPorNome("Valmilson Java"));
+        System.out.println();
 
         System.out.println("Contato atualizado: "+agendaContatos.atualizarNumeroContato("Valmilson DevJava", 123789));
     }
