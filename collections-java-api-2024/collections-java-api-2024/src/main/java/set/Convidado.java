@@ -3,7 +3,6 @@ package main.java.set;
 public class Convidado {
     //atributos
     private String nome;
-
     private int codigoConvite;
 
     public Convidado(String nome, int codigoConvite) {
