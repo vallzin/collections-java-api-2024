@@ -33,7 +33,8 @@ public class EstoqueProduto {
         Produto produtoMaisCaro = null;
         double maiorPreco = Double.MIN_VALUE;
         for(Produto p : estoqueProdutoMap.values()){
-            if(p.getPreco() > maiorPreco){
+            if(p.getPreco() >= maiorPreco){
+                maiorPreco = p.getPreco();
                 produtoMaisCaro = p;
             }
         }
@@ -46,10 +47,10 @@ public class EstoqueProduto {
         System.out.println();
         estoque.exibirProdutos();
 
-        estoque.adicionarProduto(123L, "caderno", 10, 10.0);
-        estoque.adicionarProduto(145L, "borracha", 100, 3.5);
-        estoque.adicionarProduto(155L, "lápis", 50, 5.0);
-        estoque.adicionarProduto(489L, "ResmaPapel", 20, 20.0);
+        estoque.adicionarProduto( 123L, "caderno", 10, 10.0);
+        estoque.adicionarProduto( 145L, "borracha", 100, 3.5);
+        estoque.adicionarProduto( 155L, "lápis", 50, 5.0);
+        estoque.adicionarProduto( 489L, "ResmaPapel", 20, 20.0);
 
         System.out.println();
         estoque.exibirProdutos();
